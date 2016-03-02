@@ -1,0 +1,14 @@
+Kafka
+=====
+- Kafka is Apache project, initially developed by LinkedIn.
+- Kafka is publish-subscribe messaging system, implemented as distributed commit log suitable for both online and offline message consumption.
+- Kafka is a Distributed, Partitioned , Replicated, commit log service.
+
+Main components of Kafka
+========================
+- Kafka maintains feeds of messages in categories called 'Topics'.
+- Processes that publish messages to a Kafka Topic are called 'Producers'.
+- Processes that subscribe to topics and read the message feed are called 'Consumers'.
+- Kafka is configured on a cluster of one or more servers where each one acts as a 'Broker'.
+
+Note: Communication between client and kafka brokers are using TCP protocol.

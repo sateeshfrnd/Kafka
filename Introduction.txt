@@ -10,5 +10,6 @@ Main components of Kafka
 - Processes that publish messages to a Kafka Topic are called 'Producers'.
 - Processes that subscribe to topics and read the message feed are called 'Consumers'.
 - Kafka is configured on a cluster of one or more servers where each one acts as a 'Broker'.
+- Apache ZooKeeper is an open source service built to coordinate and synchronize configuration information of nodes that belong to a distributed system. A Kafka cluster depends on ZooKeeper to perform—among other things—operations such as detecting failed nodes and electing leaders.
 
 Note: Communication between client and kafka brokers are using TCP protocol.

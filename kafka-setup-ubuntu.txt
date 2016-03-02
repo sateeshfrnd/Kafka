@@ -65,6 +65,11 @@ Setup a Kafka Cluster
 15. If you want to see from messages from beginning of any existing topics
 		$bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic first --from-beginning
 
-Note: If you are planning to use kafka with scala then we have to check the support version.
+Note: 
+- If you are planning to use kafka with scala then we have to check the support version.
+- By default, Kafka doesn't allow you to delete topics. To be able to delete topics, add the following line at the end of the file server.properties:
+vi ~/kafka/config/server.properties
+delete.topic.enable = true
+
 
 

@@ -2,5 +2,8 @@
 This is the companion repository to explore Kafka API's.
 
 # Content
-- `Kafka` Installation
-- Basic commands to start Kafaka, Producer, Consumer, Creating Topics, etc.
+- `Kafka` and `Zookeeper` Installation
+- Basic commands to start Kafka, Producer, Consumer, Creating Topics, etc.
+
+
+

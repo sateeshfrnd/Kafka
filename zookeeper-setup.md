@@ -43,10 +43,11 @@ If everything's fine, ZooKeeper will say imok and end the Telnet session.
 	   ```
 	3. Open zoo.cfg, add the following lines and save.
 	   ```
-		tickTime=2000  
-		dataDir=/tmp/zookeeper  
-		clientPort=2181
-           ```
+	   tickTime=2000  
+	   dataDir=/tmp/zookeeper  
+	   clientPort=2181
+	   ```
+          
 - Start zookeeper
 	- Run the following command to start the zookeeper on the machine:
 	  ```$bin/zkServer.sh start```
